@@ -706,3 +706,4 @@ function send_http_status($code) {
         header('Status:'.$code.' '.$_status[$code]);
     }
 }
+?>
